@@ -8,7 +8,7 @@ In the browser or Windows Web Apps include with a script tag which defines a SAT
 
 In Node.JS use your normal require statement:
 
-    var SAT = require("./asyncReentrancyGuard");
+    var ARG = require("./asyncReentrancyGuard");
 
 ## Scenarios
 All of the usage scenarios are around an async API that cannot have multiple outstanding requests. 
